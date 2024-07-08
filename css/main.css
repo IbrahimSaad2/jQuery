@@ -1,0 +1,170 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root{
+    scroll-behavior: auto;
+}
+.header{
+    background-image: url(../img/event.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.header .content-header{
+    background-color:  rgba(214, 46, 51, 0.6);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.header .content-header .title{
+    position: relative;
+    left: 0;
+}
+
+.header .content-header h1{
+    font-size: 60px;
+}
+
+aside .nav-bar .open{
+    position: absolute;
+    top: 44%;
+    left: 10px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+aside .nav-bar .links{
+    position: fixed;
+    background-color: #111111;
+    height: 100%;
+    width: 20%;
+    color: #fff;
+    z-index: 999;
+    display: none;
+}
+aside .nav-bar .links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    display: block;
+    padding: 20px 0;
+    text-align: start;
+    margin-left: 20px;
+    transition: all 0.3s;
+}
+aside .nav-bar .links i{
+    font-size: 22px;
+    position: relative;
+    left: 90%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+aside .nav-bar .links a:hover{
+    color: rgb(131, 29, 32);
+}
+aside .nav-bar .links i:hover{
+    color: rgb(131, 29, 32);
+}
+
+
+
+
+.singers{
+    width: 50%;
+    margin: 100px auto;
+}
+.singers h3{
+    background-color: #E68285;
+    padding: 10px;
+    color: #fff;
+    margin: 0;
+    cursor: pointer;
+}
+.singers p{
+    margin: 0;
+    display: none;
+    background-color: #CCCCCC;
+}
+.hours{
+    background-image: url(../img/join.jpg);
+    background-repeat: no-repeat;
+
+}
+.hours .content-hours{
+    background-color: rgba(214, 46, 51, 0.6);
+    padding-inline: 20px;
+}
+.hours .content-hours .time h2{
+    border: 1px solid #fff;
+    padding: 50px;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.join-us{
+    margin-top: 100px;
+}
+.join-us .title h2{
+    font-weight: 700;
+    color: #444444;
+}
+.join-us .title p{
+    font-size: 16px;
+}
+.join-us .contact h4{
+    font-weight: 800;
+    color: #444444;
+}
+.join-us .contact p{
+    text-align: center;
+    color: #444444;
+}
+.join-us .contact i{
+    color: #777777;
+}
+.join-us .contact i span{
+    font-weight: 400;
+    margin-left: 30px;
+}
+.join-us .contact .mail i a{
+    color:#D62E33;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+}
+.join-us .contact .social i{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #777;
+    font-size: 18px;
+    cursor: pointer;
+}
+.join-us .contact .social i:hover{
+    background-color: #D62E33;
+    color: #fff;
+    border-color: transparent;
+}
+.input input{
+    border-radius: 0 !important;
+}
+.input textarea{
+    height: 200px;
+    border-radius: 0 !important;
+}
+.input span{
+    position: relative;
+    top: 20px;
+}
+.input button{
+    padding: 10px 20px;
+    background-color: #D62E33;
+    color: #fff;
+    border: none;
+    display: flex;
+    margin-top: 50px;
+}
